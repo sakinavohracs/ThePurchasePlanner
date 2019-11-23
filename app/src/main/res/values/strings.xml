@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ThePurchasePlanner</string>
+    <string name="title_activity_list_items">ListItems</string>
+    <string name="title_activity_item_list">ItemList</string>
+</resources>
