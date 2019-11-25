@@ -2,6 +2,7 @@ package com.example.thepurchaseplanner;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -29,6 +30,7 @@ public class AddItem extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getApplicationContext(), "Item Successfully Added!", Toast.LENGTH_LONG).show();
+                startActivity(new Intent(AddItem.this,OCR.class));
             }
         });
     }
